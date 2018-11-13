@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Юра Смирнов](https://up.htmlacademy.ru/htmlcss/23/user/920453).
-* Наставник: `Неизвестно`.
+* Наставник: [Артём Альтигин](https://htmlacademy.ru/profile/artem)
 
 ---
 
