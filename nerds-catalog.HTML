@@ -27,46 +27,65 @@
     <main>
       <section class="">
         <h2 class="visually-hidden">Выбор сайта по критериям</h2>
-        <p><strong>стоимость</strong></p>
+        <legend>стоимость</legend>
         <input type="range" min="0" max="20000" step="1" value="15000">
         <p>от</p>
           <textarea name="price" rows="5" cols="10">0</textarea>
         <p>до</p>
           <textarea name="price" rows="5" cols="10">15000</textarea>
-        <p><strong>сетка</strong></p>
-        <label class="question-one-adaptive">
-          <input type="radio" name="question-one" checked>
-          Адаптивная
-        </label>
-        <label class="question-one-fixed">
-          <input type="radio" name="question-one">
-          Фиксированная
-        </label>
-        <label class="question-one-elastic">
-          <input type="radio" name="question-one">
-          Резиновая
-        </label>
-        <p><strong>особенности</strong></p>
-        <label class="checkbox">
-          <input type="checkbox" name="subscribe" checked>
-          Слайдер
-        </label>
-        <label class="checkbox">
-          <input type="checkbox" name="subscribe">
-          Блок преимуществ
-        </label>
-        <label class="checkbox">
-          <input type="checkbox" name="subscribe" checked>
-          Новости
-        </label>
-        <label class="checkbox">
-          <input type="checkbox" name="subscribe">
-          Галерея
-        </label>
-        <label class="checkbox">
-          <input type="checkbox" name="subscribe">
-          Корзина
-        </label>
+        <legend>сетка</legend>
+        <ul>
+          <li>
+            <label class="question-one">
+              <input type="radio" name="question-one" checked>
+              Адаптивная
+            </label>
+          </li>
+          <li>
+            <label class="question-one">
+              <input type="radio" name="question-one">
+              Фиксированная
+            </label>
+          </li>
+          <li>
+            <label class="question-one">
+              <input type="radio" name="question-one">
+              Резиновая
+            </label>
+          </li>
+        </ul>
+        <legend>особенности</legend>
+        <ul>
+          <li>
+            <label class="checkbox">
+              <input type="checkbox" name="subscribe" checked>
+              Слайдер
+            </label>
+          </li>
+          <li>
+            <label class="checkbox">
+              <input type="checkbox" name="subscribe">
+              Блок преимуществ
+            </label>
+          </li>
+            <label class="checkbox">
+              <input type="checkbox" name="subscribe" checked>
+              Новости
+            </label>
+          </li>
+          <li>
+            <label class="checkbox">
+              <input type="checkbox" name="subscribe">
+              Галерея
+            </label>
+          </li>
+          <li>
+            <label class="checkbox">
+              <input type="checkbox" name="subscribe">
+              Корзина
+            </label>
+          </li>
+        </ul>
         <button type="submit" class="button">показать</button>
       </section>
       <section class="">
