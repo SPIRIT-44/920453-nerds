@@ -27,66 +27,72 @@
     <main>
       <form class="filter" method="get" action="#">
         <h2 class="visually-hidden">Выбор сайта по критериям</h2>
+        <fieldset>
         <legend>стоимость</legend>
         <input type="range" min="0" max="20000" step="1" value="15000">
         <p>от</p>
           <textarea name="price" rows="5" cols="10">0</textarea>
         <p>до</p>
           <textarea name="price" rows="5" cols="10">15000</textarea>
-        <legend>сетка</legend>
-        <ul>
-          <li>
-            <label class="question-one">
-              <input type="radio" name="question-one" checked>
-              Адаптивная
-            </label>
-          </li>
-          <li>
-            <label class="question-one">
-              <input type="radio" name="question-one">
-              Фиксированная
-            </label>
-          </li>
-          <li>
-            <label class="question-one">
-              <input type="radio" name="question-one">
-              Резиновая
-            </label>
-          </li>
-        </ul>
-        <legend>особенности</legend>
-        <ul>
-          <li>
-            <label class="checkbox">
-              <input type="checkbox" name="subscribe" checked>
-              Слайдер
-            </label>
-          </li>
-          <li>
-            <label class="checkbox">
-              <input type="checkbox" name="subscribe">
-              Блок преимуществ
-            </label>
-          </li>
-          <li>
-            <label class="checkbox">
-              <input type="checkbox" name="subscribe" checked>
-              Новости
-            </label>
-          </li>
-          <li>
-            <label class="checkbox">
-              <input type="checkbox" name="subscribe">
-              Галерея
-            </label>
-          </li>
-          <li>
-            <label class="checkbox">
-              <input type="checkbox" name="subscribe">
-              Корзина
-            </label>
-          </li>
-        </ul>
+        </fieldset>
+        <fieldset>
+          <legend>сетка</legend>
+          <ul>
+            <li>
+              <label class="question-one">
+                <input type="radio" name="question-one" checked>
+                Адаптивная
+              </label>
+            </li>
+            <li>
+              <label class="question-one">
+                <input type="radio" name="question-one">
+                Фиксированная
+              </label>
+            </li>
+            <li>
+              <label class="question-one">
+                <input type="radio" name="question-one">
+                Резиновая
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>особенности</legend>
+          <ul>
+            <li>
+              <label class="checkbox">
+                <input type="checkbox" name="subscribe" checked>
+                Слайдер
+              </label>
+            </li>
+            <li>
+              <label class="checkbox">
+                <input type="checkbox" name="subscribe">
+                Блок преимуществ
+              </label>
+            </li>
+            <li>
+              <label class="checkbox">
+                <input type="checkbox" name="subscribe" checked>
+                Новости
+              </label>
+            </li>
+            <li>
+              <label class="checkbox">
+                <input type="checkbox" name="subscribe">
+                Галерея
+              </label>
+            </li>
+            <li>
+              <label class="checkbox">
+                <input type="checkbox" name="subscribe">
+                Корзина
+              </label>
+            </li>
+          </ul>
+        </fieldset>
         <button type="submit" class="button">показать</button>
       </form>
       <section class="">
