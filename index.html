@@ -6,9 +6,10 @@
   </head>
   <body>
      <header class="main-header">
-       <nav class="main-navigation">
+       <h1 class="visually-hidden">дизайн-студии Нёрдс</h1>
+       <nav class="main-navigation" aria-label="Навигация по сайту">
          <a class="main-header-logo">
-           <img src="img/nerds-logo.svg" alt="Логотип Нёрдс">
+           <img src="img/nerds-logo.svg" alt="Логотип дизайн-студии Нёрдс">
          </a>
          <ul class="site-navigation">
             <li><a href=" ">студия</a></li>
@@ -16,10 +17,13 @@
             <li><a href=" ">магазин</a></li>
             <li><a href=" ">контакты</a></li>
          </ul>
-         <button type="submit"><img src="basket.svg" alt="Корзина">корзина</button>
+         <ul class="user-navigation">
+           <li>
+             <a href="#" aria-label="Корзина"><img src="img/cart-icon.svg" alt="Корзина"></a>
+           </li>
+         </ul>
        </nav>
        <div class="main-header">
-         <h1 class="visually-hidden">Нёрдс</h1>
          <p><strong>Долго, дорого, скрупулезно.</strong></p>
          <p>Математичски выверенный дизайн для вашего сайта или мобильного приложения</p>
          <input type="submit" value="узнать больше">
@@ -27,27 +31,25 @@
        </div>
      </header>
      <main>
-       <section>
-         <h2 class="visually-hidden">Услуги</h2>
-         <ul class="amenities">
-            <li><img src="img/illustration-1.png" alt="Веб-сайты"></li>
-            <li><img src="img/illustration-2.png" alt="Приложения"></li>
-            <li><img src="img/illustration-3.png" alt="Презентации"></li>
-         </ul>
-         <ul class="amenities">
+       <section class="">
+         <h2 class="visually-hidden">Услуги дизайн-студии Нёрдс</h2>
+         <ul class="">
+            <li><img src="img/illustration-1.png" alt="иллюстрация веб-сайта"></li>
             <li><h3>веб-сайты</h3></li>
-            <li><h3>приложения</h3></li>
-            <li><h3>презентации</h3></li>
-         </ul>
-         <ul class="amenities">
             <li>Мир никогда не будет прежним после того как увидит ваш сайт!</li>
-            <li>Покорите топ-10 приложений в AppStore и Google Play</li>
-            <li>Вы даже не подозреваете, насколько вы изумительны!</li>
+            <li><button class="button" type="button">заказать</button></li>
          </ul>
-         <ul class="amenities">
-            <li><input type="submit" value="заказать"></li>
-            <li><input type="submit" value="заказать"></li>
-            <li><input type="submit" value="заказать"></li>
+         <ul class="">
+            <li><img src="img/illustration-2.png" alt="иллюстрация приложения"></li>
+            <li><h3>приложения</h3></li>
+            <li>Покорите топ-10 приложений в AppStore и Google Play</li>
+            <li><button class="button" type="button">заказать</button></li>
+         </ul>
+         <ul class="">
+            <li><img src="img/illustration-3.png" alt="иллюстрация презентации"></li>
+            <li><h3>презентации</h3></li>
+            <li>Вы даже не подозреваете, насколько вы изумительны!</li>
+            <li><button class="button" type="button">заказать</button></li>
          </ul>
        </section>
        <section class="">
@@ -90,18 +92,45 @@
         <h3>NЁRDS DESIGN STUDIO</h3><br>
         <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p><br>
         <p>тел. +7 (812) 275-75-75</p>
-        <input type="submit" value="напишите нам">
+        <button type="button">Напишите нам</button>
+      </section>
+      <section class="">
+        <h2>Напишите нам</h2>
+        <button type="button" class="button-img" aria-label="закрыть"></button>
+        <form class="" action="#" method="post">
+          <p>
+            <label for="your-name" class="">Ваше имя:</label>
+            <input class="user-name" type="text" id="your-name" name="name" placeholder="Имя Фамилия">
+          </p>
+          <p>
+            <label for="your-email" class="">Ваш e-mail:</label>
+            <input class="user-email" type="text" id="your-email" name="email" placeholder="email@example.com">
+          </p>
+          <p>
+            <label for="your-message" class="">Текст письма:</label>
+            <input class="user-text" type="text" id="your-message" name="text" placeholder="В свободной форме">
+          </p>
+          <button type="submit" class="button">отправить</button>
+        </form>
       </section>
       <div class="footer-social">
-        <a class="button-social" href="">
-          <img src="img/vk-icon.svg" alt="Вконтакте">
-        </a>
-        <a class="button-social" href="">
-          <img src="img/fb-icon.svg" alt="Фейсбук">
-        </a>
-        <a class="button-social" href="">
-          <img src="img/insta-icon.svg" alt="Инстаграм">
-        </a>
+        <ul>
+          <li>
+            <a class="button-social" href="" aria-label="Нёрдс Вконтакте">
+              <img src="img/vk-icon.svg" alt="Логотип Вконтакте">
+            </a>
+          </li>
+          <li>
+            <a class="button-social" href="" aria-label="Нёрдс в Фейсбук">
+              <img src="img/fb-icon.svg" alt="Логотип Фейсбука">
+            </a>
+          </li>
+          <li>
+            <a class="button-social" href="" aria-label="Нёрдс в Инстаграм">
+              <img src="img/insta-icon.svg" alt="Логотип Инстаграм">
+            </a>
+          </li>
+        </ul>
       </div>
       <div class="discount-social">
         <b>Давайте дружить, это выгодно</b>
