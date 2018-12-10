@@ -25,7 +25,7 @@
        <h1>Магазин готовых шаблонов</h1>
     </header>
     <main>
-      <section class="">
+      <form class="filter" method="get" action="#">
         <h2 class="visually-hidden">Выбор сайта по критериям</h2>
         <legend>стоимость</legend>
         <input type="range" min="0" max="20000" step="1" value="15000">
@@ -68,6 +68,7 @@
               Блок преимуществ
             </label>
           </li>
+          <li>
             <label class="checkbox">
               <input type="checkbox" name="subscribe" checked>
               Новости
@@ -87,7 +88,7 @@
           </li>
         </ul>
         <button type="submit" class="button">показать</button>
-      </section>
+      </form>
       <section class="">
         <p><span>сортировать</span></p>
         <input type="button" value="по цене">
