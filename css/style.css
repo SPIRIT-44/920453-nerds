@@ -8,12 +8,71 @@ body {
   background-color: #ffffff;
 }﻿
 
+.main-header {
+  background-color: #eeeeee;
+}
+
 a {
   text-decoration: none;
 }
 
-.main-header {
-  background-color: #eeeeee;
+h1 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.button {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background-color: #fb565a;
+  border: none;
+  border-radius: 2px;
+}
+
+.applications .button {
+  background-color: #00ca74;
+}
+
+.presentations .button {
+  background-color: #efc84a;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #e74246;
+}
+
+.applications .button:hover,
+.applications .button:focus {
+  background-color: #00bc6c;
+}
+
+.presentations .button:hover,
+.presentations .button:focus {
+  background-color: #eab534;
+}
+
+.button:active {
+  color: #e37376;
+  background-color: #d7373b;
+}
+
+.applications .button:active {
+  color: #4dc491;
+  background-color: #00aa62;
+}
+
+.presentations .button:active {
+  color: #edc265;
+  background-color: #e5a722;
 }
 
 .main-navigation {
@@ -42,4 +101,106 @@ a {
 .site-navigation a:active,
 .user-navigation a:active {
   color: #a6a6a6;
+}
+
+.main-header-logo img:hover,
+.main-header-logo img:focus {
+  opacity: 0.8;
+}
+
+.main-header-logo img:active {
+  opacity: 0.3;
+}
+
+.amenities {
+  list-style: none;
+}
+
+.amenities h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.brands img{
+  opacity: 0.2;
+}
+
+.brands img:hover,
+.brands img:focus {
+  opacity: 1;
+}
+
+.brands img:active {
+  opacity: 0.1;
+}
+
+.logo-brands {
+  list-style: none;
+}
+
+.button-social {
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 50%;
+}
+
+.button-social:hover,
+.button-social:focus, {
+  background-color: #e74246;
+}
+
+.button-social:active {
+  background-color: #d7373b;
+}
+
+.button-social img:active {
+opacity: 0.3;
+}
+
+.discount-social b {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.discount-social p {
+  line-height: 22px;
+}
+
+.logo-social{
+  list-style: none;
+}
+
+.button-img img {
+  opacity: 0.3;
+}
+
+.button-img img:hover,
+.button-img img:focus {
+  opacity: 1;
+}
+
+.button-img img:active {
+  opacity: 0.1;
+}
+
+.user-name {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #a1a1a1;
+  border: 2px solid #d7dcde;
+  border-radius: 2px;
+}
+
+.user-name:hover,
+.user-name:focus {
+  border: 2px solid #b4b9bb;
+}
+
+.user-name:active {
+  color: #444444;
+  border: 2px solid #000000;
 }
