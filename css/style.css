@@ -174,16 +174,16 @@ opacity: 0.3;
   list-style: none;
 }
 
-.button-img img {
+.button-close img {
   opacity: 0.3;
 }
 
-.button-img img:hover,
-.button-img img:focus {
+.button-close img:hover,
+.button-close img:focus {
   opacity: 1;
 }
 
-.button-img img:active {
+.button-close img:active {
   opacity: 0.1;
 }
 
