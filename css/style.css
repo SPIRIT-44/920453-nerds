@@ -124,16 +124,16 @@ h1 {
   color: #000000;
 }
 
-.brands img{
+.logo-brands img{
   opacity: 0.2;
 }
 
-.brands img:hover,
+.logo-brands img:hover,
 .brands img:focus {
   opacity: 1;
 }
 
-.brands img:active {
+.logo-brands img:active {
   opacity: 0.1;
 }
 
