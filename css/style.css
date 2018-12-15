@@ -152,11 +152,10 @@ h1 {
 
 .button-social:active {
   background-color: #d7373b;
-  opacity: 0.3;
 }
 
 .button-social img:active {
-
+  opacity: 0.3;
 }
 
 .discount-social b {
