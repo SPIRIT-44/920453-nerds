@@ -270,14 +270,14 @@ h1 {
 }
 
 .radio-button {
-  color: #b8b8b8;
+  background-color: #b8b8b8;
 }
 
 .radio-button:hover,
 .radio-button:focus {
-  color: #4d4d4d;
+  background-color: #4d4d4d;
 }
 
 .radio-button:disabled {
-  color: #ededed;
+  background-color: #ededed;
 }
