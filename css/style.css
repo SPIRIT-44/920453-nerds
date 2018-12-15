@@ -8,7 +8,7 @@ body {
   background-color: #ffffff;
 }﻿
 
-a {
+.main-navigation a {
   text-decoration: none;
 }
 
@@ -22,6 +22,7 @@ h1 {
   line-height: 55px;
   font-weight: 500;
   color: #000000;
+  text-align: center;
 }
 
 .button {
@@ -237,3 +238,16 @@ h1 {
   font-weight: 700;
   color: #000000;
 }
+
+.filter fieldset {
+  border: none;
+}
+
+.filter legend {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.question-one
