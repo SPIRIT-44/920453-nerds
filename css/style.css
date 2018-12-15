@@ -12,7 +12,8 @@ a {
   text-decoration: none;
 }
 
-.main-header {
+.main-navigation,
+.advantages {
   background-color: #eeeeee;
 }
 
