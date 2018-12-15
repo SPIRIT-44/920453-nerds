@@ -265,10 +265,6 @@ h1 {
   color: #283136;
 }
 
-.filter label:disabled {
-  color: #bec1c2;
-}
-
 .radio-button {
   background-color: #b8b8b8;
 }
@@ -276,8 +272,4 @@ h1 {
 .radio-button:hover,
 .radio-button:focus {
   background-color: #4d4d4d;
-}
-
-.radio-button:disabled {
-  background-color: #ededed;
 }
