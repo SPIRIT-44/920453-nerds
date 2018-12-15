@@ -250,4 +250,33 @@ h1 {
   color: #000000;
 }
 
-.question-one
+.filter ul {
+   list-style: none;
+ }
+
+.question-one {
+  line-height: 20px;
+  color: #283136;
+}
+
+.question-one:hover,
+.question-one:focus {
+  color: #283136;
+}
+
+.question-one:disabled {
+  color: #bec1c2;
+}
+
+.radio-button {
+  color: #b8b8b8;
+}
+
+.radio-button:hover,
+.radio-button:focus {
+  color: #4d4d4d;
+}
+
+.radio-button:disabled {
+  color: #ededed;
+}
