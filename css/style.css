@@ -8,12 +8,12 @@ body {
   background-color: #ffffff;
 }﻿
 
-.main-header {
-  background-color: #eeeeee;
-}
-
 a {
   text-decoration: none;
+}
+
+.main-header {
+  background-color: #eeeeee;
 }
 
 h1 {
