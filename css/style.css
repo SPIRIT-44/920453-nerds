@@ -214,3 +214,17 @@ opacity: 0.3;
   color: #444444;
   border: 2px solid #000000;
 }
+
+.address {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.address h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+}
