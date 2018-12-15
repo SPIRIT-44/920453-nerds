@@ -206,12 +206,11 @@ opacity: 0.3;
   border-radius: 2px;
 }
 
-.message:hover,
-.message:focus {
+.message:hover {
   border: 2px solid #b4b9bb;
 }
 
-.message:active {
+.message:focus {
   color: #444444;
   border: 2px solid #000000;
 }
