@@ -12,8 +12,8 @@ a {
   text-decoration: none;
 }
 
-.main-navigation,
-.advantages {
+.main-header {
+  color: #000000;
   background-color: #eeeeee;
 }
 
