@@ -255,17 +255,17 @@ h1 {
    list-style: none;
  }
 
-.question-one {
+.filter label {
   line-height: 20px;
   color: #283136;
 }
 
-.question-one:hover,
-.question-one:focus {
+.filter label:hover,
+.filter label:focus {
   color: #283136;
 }
 
-.question-one:disabled {
+.filter label:disabled {
   color: #bec1c2;
 }
 
