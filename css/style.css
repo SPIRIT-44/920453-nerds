@@ -255,21 +255,29 @@ h1 {
    list-style: none;
  }
 
-.filter label {
+.filter .question-one {
   line-height: 20px;
   color: #283136;
 }
 
-.filter label:hover,
-.filter label:focus {
+.filter .question-one:hover,
+.filter .question-one:focus {
   color: #283136;
 }
 
+.filter .question-one:disabled {
+  color: #bec1c2;
+}
+
 .radio-button {
-  background-color: #b8b8b8;
+
 }
 
 .radio-button:hover,
 .radio-button:focus {
-  background-color: #4d4d4d;
+
+}
+
+.radio-button:disabled {
+  
 }
