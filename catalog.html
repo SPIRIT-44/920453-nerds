@@ -15,21 +15,21 @@
          </a>
          <ul class="site-navigation">
             <li>
-              <a href=" ">студия</a>
+              <a href="#">студия</a>
             </li>
             <li>
-              <a href=" ">клиенты</a>
+              <a href="#">клиенты</a>
             </li>
             <li>
-              <a href=" ">магазин</a>
+              <a href="catalog.html">магазин</a>
             </li>
             <li>
-              <a href=" ">контакты</a>
+              <a href="#">контакты</a>
             </li>
          </ul>
          <ul class="user-navigation">
            <li>
-             <a href="#" aria-label="Корзина"><img src="img/cart-icon.svg" alt="Корзина">Корзина</a>
+             <a href="#" aria-label="Корзина"><img src="img/cart-icon.svg" alt="Корзина">корзина</a>
            </li>
          </ul>
        </nav>
@@ -39,33 +39,27 @@
       <form class="filter" method="get" action="#">
         <h2 class="visually-hidden">Выбор сайта по критериям</h2>
         <fieldset>
-        <legend>стоимость</legend>
-        <input type="range" min="0" max="20000" step="1" value="15000">
-        <p>от</p>
-          <textarea name="price" rows="5" cols="10">0</textarea>
-        <p>до</p>
-          <textarea name="price" rows="5" cols="10">15000</textarea>
+          <legend>стоимость</legend>
+          <input type="range" min="0" max="20000" step="1" value="15000">
+          <p>от</p>
+          <input type="number" name="price" value="0">
+          <p>до</p>
+          <input type="number" name="price" value="15000">
         </fieldset>
         <fieldset>
           <legend>сетка</legend>
           <ul>
             <li>
-              <label class="question-one">
-                <input type="radio" name="question-one" class="radio-button" checked>
-                Адаптивная
-              </label>
+              <input type="radio" id="adaptive-grid" name="question-one" class="radio-button" checked>
+              <label for="adaptive-grid" class="question-one">Адаптивная</label>
             </li>
             <li>
-              <label class="question-one">
-                <input type="radio" name="question-one" class="radio-button">
-                Фиксированная
-              </label>
+              <input type="radio" id="fixed-grid" name="question-one" class="radio-button">
+              <label for="fixed-grid" class="question-one">Фиксированная</label>
             </li>
             <li>
-              <label class="question-one">
-                <input type="radio" name="question-one" class="radio-button">
-                Резиновая
-              </label>
+              <input type="radio" id="rubber-grid" name="question-one" class="radio-button">
+              <label for="rubber-grid" class="question-one">Резиновая</label>
             </li>
           </ul>
         </fieldset>
@@ -73,99 +67,111 @@
           <legend>особенности</legend>
           <ul>
             <li>
-              <label class="checkbox">
-                <input type="checkbox" name="subscribe" checked>
-                Слайдер
-              </label>
+              <input type="checkbox" id="slider" name="subscribe" checked>
+              <label for="slider" class="checkbox">Слайдер</label>
             </li>
             <li>
-              <label class="checkbox">
-                <input type="checkbox" name="subscribe">
-                Блок преимуществ
-              </label>
+              <input type="checkbox" id="advantage-block" name="subscribe">
+              <label for="advantage-block" class="checkbox">Блок преимуществ</label>
             </li>
             <li>
-              <label class="checkbox">
-                <input type="checkbox" name="subscribe" checked>
-                Новости
-              </label>
+              <input type="checkbox" id="news" name="subscribe" checked>
+              <label for="news" class="checkbox">Новости</label>
             </li>
             <li>
-              <label class="checkbox">
-                <input type="checkbox" name="subscribe">
-                Галерея
-              </label>
+              <input type="checkbox" id="gallery" name="subscribe">
+              <label for="gallery" class="checkbox">Галерея</label>
             </li>
             <li>
-              <label class="checkbox">
-                <input type="checkbox" name="subscribe">
-                Корзина
-              </label>
+              <input type="checkbox" id="basket" name="subscribe">
+              <label for="basket" class="checkbox">Корзина</label>
             </li>
           </ul>
         </fieldset>
         <button type="submit" class="button">показать</button>
       </form>
-      <section class="">
+      <div class="site-filter">
         <p><span>сортировать</span></p>
-        <input type="button" value="по цене">
-        <input type="button" value="по типу">
-        <input type="button" value="по названию">
-        <figure class="">
-          <div class="">
-            <img class="browser" src="img/browser.svg" alt="шапка браузера">
-            <img src="img/sedona.jpg" alt="сайт Седона">
-          </div>
-          <div class="">
-            <img class="browser" src="img/browser.svg" alt="шапка браузера">
-            <img src="img/pink.jpg" alt="сайт Pink">
-          </div>
-          <div class="">
-            <img class="browser" src="img/browser.svg" alt="шапка браузера">
-            <img src="img/barbershop.jpg" alt="сайт Барбершоп Бородинский">
-          </div>
-          <div class="">
-            <img class="browser" src="img/browser.svg" alt="шапка браузера">
-            <img src="img/mishka.jpg" alt="сайт mishka">
-          </div>
-          <div class="">
-            <img class="browser" src="img/browser.svg" alt="шапка браузера">
-            <img src="img/aplus.jpg" alt="сайт A plus">
-          </div>
-          <div class="">
-            <img class="browser" src="img/browser.svg" alt="шапка браузера">
-            <img src="img/kvast.jpg" alt="сайт Кваст">
-          </div>
-        </figure>
         <ul>
           <li>
-            <button type="button" class="button-menu">1</button>
+            <a href="#" class="button-sorting">по цене</a>
           </li>
           <li>
-            <button type="button" class="button-menu">2</button>
+            <a href="#" class="button-sorting">по типу</a>
           </li>
           <li>
-            <button type="button" class="button-menu">3</button>
-          </li>
-          <li>
-            <button type="button" class="button-menu">следующая</button>
+            <a href="#" class="button-sorting">по названию</a>
           </li>
         </ul>
-      </section>
+        <ul>
+          <li>
+            <a href="#" class="button-sorting">
+              <img src="img/icon-down-dir.svg" alt="Сортировать по убыванию">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="button-sorting">
+              <img src="img/icon-up-dir.svg" alt="Сортировать по возрастанию">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="sites">
+        <div class="sedona">
+          <img class="browser" src="img/browser.svg" alt="шапка браузера">
+          <img src="img/sedona.jpg" alt="сайт Седона">
+        </div>
+        <div class="pink">
+          <img class="browser" src="img/browser.svg" alt="шапка браузера">
+          <img src="img/pink.jpg" alt="сайт Pink">
+        </div>
+        <div class="barbershop">
+          <img class="browser" src="img/browser.svg" alt="шапка браузера">
+          <img src="img/barbershop.jpg" alt="сайт Барбершоп Бородинский">
+        </div>
+        <div class="mishka">
+          <img class="browser" src="img/browser.svg" alt="шапка браузера">
+          <img src="img/mishka.jpg" alt="сайт mishka">
+        </div>
+        <div class="aplus">
+          <img class="browser" src="img/browser.svg" alt="шапка браузера">
+          <img src="img/aplus.jpg" alt="сайт A plus">
+        </div>
+        <div class="kvast">
+          <img class="browser" src="img/browser.svg" alt="шапка браузера">
+          <img src="img/kvast.jpg" alt="сайт Кваст">
+        </div>
+        <div class="toggle-buttons">
+          <ul>
+            <li>
+              <a href="#" class="button-menu">1</a>
+            </li>
+            <li>
+              <a href="#" class="button-menu">2</a>
+            </li>
+            <li>
+              <a href="#" class="button-menu">3</a>
+            </li>
+            <li>
+              <a href="#" class="button-menu">следующая</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </main>
-    <footer class="">
+    <footer>
       <section class="address">
         <h3>NЁRDS DESIGN STUDIO</h3>
         <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-        <p>тел. +7 (812) 275-75-75</p>
-        <button type="button" class="button">Напишите нам</button>
+        <p>тел.<a href="tel:+7(812)275-75-75"> +7 (812) 275-75-75</a></p>
+        <a href="#" class="button">напишите нам</a>
       </section>
       <section class="write-us">
         <h2>Напишите нам</h2>
         <button type="button" class="button-close" aria-label="закрыть">
           <img src="img/close-cross.svg" alt="Закрыть">
         </button>
-        <form class="" action="#" method="post">
+        <form class="form-fields" action="#" method="post">
           <p>
             <label for="your-name" class="">Ваше имя:</label>
             <input class="user-name" type="text" id="your-name" name="name" placeholder="Имя Фамилия">
@@ -184,17 +190,17 @@
       <div class="footer-social">
         <ul class="logo-social">
           <li>
-            <a class="button-social" href="" aria-label="Нёрдс Вконтакте">
+            <a class="button-social" href="#" aria-label="Нёрдс Вконтакте">
               <img src="img/vk-icon.svg" alt="Логотип Вконтакте">
             </a>
           </li>
           <li>
-            <a class="button-social" href="" aria-label="Нёрдс в Фейсбук">
+            <a class="button-social" href="#" aria-label="Нёрдс в Фейсбук">
               <img src="img/fb-icon.svg" alt="Логотип Фейсбука">
             </a>
           </li>
           <li>
-            <a class="button-social" href="" aria-label="Нёрдс в Инстаграм">
+            <a class="button-social" href="#" aria-label="Нёрдс в Инстаграм">
               <img src="img/insta-icon.svg" alt="Логотип Инстаграм">
             </a>
           </li>
