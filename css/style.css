@@ -17,7 +17,7 @@ a {
   background-color: #eeeeee;
 }
 
-h1 {
+.main-header h1 {
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
@@ -77,9 +77,94 @@ h1 {
   background-color: #e5a722;
 }
 
+.button-filter {
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.button-filter:hover,
+.button-filter:focus, {
+  color: #000000;
+  background-color: #dfdfdf;
+}
+
+.button-filter:active {
+  color: #959595;
+  background-color: #d5d5d5;
+}
+
+.button-sorting {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #b2b2b2;
+}
+
+.button-sorting:hover,
+.button-sorting:focus {
+  color: #666666;
+}
+
+.button-sorting:active,
+.button-sorting:disabled {
+  color: #000000;
+}
+
+.button-sorting img {
+  opacity: 0.2;
+}
+
+.button-sorting img:hover,
+.button-sorting img:focus {
+  opacity: 0.5;
+}
+
+.button-sorting img:active {
+  opacity: 1;
+}
+
+.product-card .button:active {
+  color: #ffffff;
+  background-color: #d7373b;
+}
+
+.button-menu {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #eeeeee;
+  border: 2px solid #eeeeee;
+  border-radius: 2px;
+}
+
+.button-menu:hover,
+.button-menu:focus {
+  color: #000000;
+  background-color: #dfdfdf;
+  border: 2px solid #dfdfdf;
+  border-radius: 2px;
+}
+
+.button-menu:active {
+  color: #959595;
+  background-color: #d5d5d5;
+  border: 2px solid #d5d5d5;
+  border-radius: 2px;
+}
+
+.button-menu:disabled {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #dbdbdb;
+  border-radius: 2px;
+}
+
 .main-navigation {
   line-height: 30px;
   font-weight: 500;
+  text-transform: uppercase;
   color: #000000;
 }
 
@@ -90,6 +175,7 @@ h1 {
 
 .site-navigation a,
 .user-navigation a {
+  text-decoration: none;
   color: #000000;
 }
 
@@ -105,6 +191,12 @@ h1 {
   color: #a6a6a6;
 }
 
+.site-navigation a:disabled,
+.user-navigation a:disabled {
+  color: #000000;
+  border-bottom: 2px solid #fb565a;
+}
+
 .main-header-logo img:hover,
 .main-header-logo img:focus {
   opacity: 0.8;
@@ -114,11 +206,7 @@ h1 {
   opacity: 0.3;
 }
 
-.amenities {
-  list-style: none;
-}
-
-.amenities h3 {
+.service-nerds h3 {
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
@@ -225,6 +313,17 @@ h1 {
   border: 2px solid #000000;
 }
 
+.placeholder {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #a1a1a1;
+}
+
+.placeholder:focus {
+  color: #444444;
+}
+
 .address {
   font-size: 16px;
   line-height: 18px;
@@ -255,34 +354,34 @@ h1 {
    list-style: none;
  }
 
-.filter .question-one {
+.filter .question-one,
+.filter .checkbox {
+  font-size: 16px;
   line-height: 20px;
   color: #283136;
 }
 
 .filter .question-one:hover,
-.filter .question-one:focus {
+.filter .question-one:focus,
+.filter .checkbox:hover,
+.filter .checkbox:focus {
   color: #283136;
 }
 
-.filter .question-one:disabled {
+.filter .question-one:disabled,
+.filter .checkbox:disabled {
   color: #bec1c2;
 }
 
-.radio-button {
-
-}
-
-.radio-button:hover,
-.radio-button:focus {
-
-}
-
-.radio-button:disabled {
-
+.browser {
+  opacity: 0.12;
 }
 
 .browser:hover,
 .browser:focus {
-  opacity: 0.12;
+  opacity: 1;
+}
+
+.product-card {
+  background-color: #eeeeee;
 }
