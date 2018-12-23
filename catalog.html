@@ -5,11 +5,12 @@
     <title>HTML Academy: Нёрдс</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/outline.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="catalog">
      <header class="main-header">
-       <nav class="main-navigation">
+       <nav class="main-navigation container">
          <a class="main-header-logo" href="index.html">
            <img src="img/nerds-logo.svg" alt="Логотип Нёрдс">
          </a>
@@ -88,7 +89,7 @@
             </li>
           </ul>
         </fieldset>
-        <button type="submit" class="button">показать</button>
+        <button type="submit" class="button-filter">показать</button>
       </form>
       <div class="site-filter">
         <p><span>сортировать</span></p>
@@ -117,29 +118,83 @@
         </ul>
       </div>
       <div class="sites">
-        <div class="sedona">
-          <img class="browser" src="img/browser.svg" alt="шапка браузера">
-          <img src="img/sedona.jpg" alt="сайт Седона">
+        <div class="sedona-browser">
+          <div class="browser">
+            <img class="browser" src="img/browser.svg" alt="шапка браузера">
+          </div>
+          <div class="sedona">
+            <img src="img/sedona.jpg" alt="сайт Седона">
+          </div>
+          <div class="product-card">
+            <h3>sedona</h3>
+            <p>Информационный сайт для туристов</p>
+            <a href="#" class="button">9900 РУБ.</a>
+          </div>
         </div>
-        <div class="pink">
-          <img class="browser" src="img/browser.svg" alt="шапка браузера">
-          <img src="img/pink.jpg" alt="сайт Pink">
+        <div class="pink-browser">
+          <div class="browser">
+            <img class="browser" src="img/browser.svg" alt="шапка браузера">
+          </div>
+          <div class="pink">
+            <img src="img/pink.jpg" alt="сайт Pink">
+          </div>
+          <div class="product-card">
+            <h3>PINK APP</h3>
+            <p>Продуктовый лендинг приложения для iOS и Android</p>
+            <a href="#" class="button">9900 РУБ.</a>
+          </div>
         </div>
-        <div class="barbershop">
-          <img class="browser" src="img/browser.svg" alt="шапка браузера">
-          <img src="img/barbershop.jpg" alt="сайт Барбершоп Бородинский">
+        <div class="barbershop-browser">
+          <div class="browser">
+            <img class="browser" src="img/browser.svg" alt="шапка браузера">
+          </div>
+          <div class="barbershop">
+            <img src="img/barbershop.jpg" alt="сайт Барбершоп Бородинский">
+          </div>
+          <div class="product-card">
+            <h3>BARBERSHOP</h3>
+            <p>Сайт салона красоты. Для мужчин, да.</p>
+            <a href="#" class="button">9900 РУБ.</a>
+          </div>
         </div>
-        <div class="mishka">
-          <img class="browser" src="img/browser.svg" alt="шапка браузера">
-          <img src="img/mishka.jpg" alt="сайт mishka">
+        <div class="mishka-browser">
+          <div class="browser">
+            <img class="browser" src="img/browser.svg" alt="шапка браузера">
+          </div>
+          <div class="mishka">
+            <img src="img/mishka.jpg" alt="сайт mishka">
+          </div>
+          <div class="product-card">
+            <h3>MISHKA</h3>
+            <p>Интернет-магазин вязаных игрушек</p>
+            <a href="#" class="button">9900 РУБ.</a>
+          </div>
         </div>
-        <div class="aplus">
-          <img class="browser" src="img/browser.svg" alt="шапка браузера">
-          <img src="img/aplus.jpg" alt="сайт A plus">
+        <div class="aplus-browser">
+          <div class="browser">
+            <img class="browser" src="img/browser.svg" alt="шапка браузера">
+          </div>
+          <div class="aplus">
+            <img src="img/aplus.jpg" alt="сайт A plus">
+          </div>
+          <div class="product-card">
+            <h3>A PLUS</h3>
+            <p>Лендинг курсов повышения квалификации</p>
+            <a href="#" class="button">9900 РУБ.</a>
+          </div>
         </div>
-        <div class="kvast">
-          <img class="browser" src="img/browser.svg" alt="шапка браузера">
-          <img src="img/kvast.jpg" alt="сайт Кваст">
+        <div class="kvast-browser">
+          <div class="browser">
+            <img class="browser" src="img/browser.svg" alt="шапка браузера">
+          </div>
+          <div class="kvast">
+            <img src="img/kvast.jpg" alt="сайт Кваст">
+          </div>
+          <div class="product-card">
+            <h3>КВАСТ</h3>
+            <p>Промо-сайт производителя крафтового кваса</p>
+            <a href="#" class="button">9900 РУБ.</a>
+          </div>
         </div>
         <div class="toggle-buttons">
           <ul>
