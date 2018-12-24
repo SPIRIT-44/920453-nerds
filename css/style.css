@@ -555,6 +555,12 @@ a {
   width: 760px;
 }
 
+.toggle-buttons {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 .main-footer-catalog {
   margin-top: 60px;
 }
