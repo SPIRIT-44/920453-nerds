@@ -451,3 +451,37 @@ a {
   padding: 0 20px;
   margin: 0 auto;
 }
+
+.service-nerds {
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.websites {
+  width: 300px;
+}
+
+.websites img {
+  width: 300px;
+  height: 146px;
+}
+
+.applications {
+  width: 300px;
+}
+
+.applications img {
+  width: 300px;
+  height: 146px;
+  padding: 0 auto;
+}
+
+.presentations {
+  width: 300px;
+}
+
+.presentations img {
+  width: 300px;
+  height: 146px;
+  padding-right: 60px;
+}
