@@ -551,6 +551,10 @@ a {
   border: none;
 }
 
+.catalog {
+  width: 760px;
+}
+
 .main-footer-catalog {
   margin-top: 60px;
 }
