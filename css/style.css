@@ -12,11 +12,7 @@ a {
   text-decoration: none;
 }
 
-.main-header {
-  color: #000000;
-  background-color: #eeeeee;
-}
-
+.main-header,
 .main-header-catalog {
   color: #000000;
   background-color: #eeeeee;
@@ -530,6 +526,7 @@ a {
 }
 
 .main-header-catalog {
+  width: 100%;
   margin-bottom: 60px;
 }
 
