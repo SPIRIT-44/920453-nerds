@@ -545,6 +545,12 @@ a {
   list-style: none;
 }
 
+.filter fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
 .main-footer-catalog {
   margin-top: 60px;
 }
