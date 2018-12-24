@@ -17,6 +17,11 @@ a {
   background-color: #eeeeee;
 }
 
+.main-header-catalog {
+  color: #000000;
+  background-color: #eeeeee;
+}
+
 .main-header h1 {
   font-size: 55px;
   line-height: 55px;
@@ -398,6 +403,14 @@ a {
   list-style: none;
 }
 
+.site-filter span {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
 .product-card {
   font-size: 16px;
   line-height: 18px;
@@ -420,14 +433,14 @@ a {
   margin-bottom: 80px;
 }
 
-.main-navigation {
-  display: flex;
-  margin-bottom: 30px;
-}
-
 .main-header-logo {
   width: 160px;
   height: 65px;
+}
+
+.main-navigation {
+  display: flex;
+  margin-bottom: 30px;
 }
 
 .site-navigation {
@@ -501,7 +514,8 @@ a {
   list-style: none;
 }
 
-.main-footer .container {
+.main-footer .container,
+.main-footer-catalog .container {
   display: flex;
 }
 
@@ -513,4 +527,25 @@ a {
   width: 660px;
   margin-left: 140px;
   margin-right: auto;
+}
+
+.main-header-catalog {
+  margin-bottom: 60px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter {
+  width: 260px;
+}
+
+.catalog {
+  width: 760px;
+}
+
+.main-footer-catalog {
+  margin-top: 60px;
 }
