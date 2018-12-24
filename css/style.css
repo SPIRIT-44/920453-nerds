@@ -500,3 +500,17 @@ a {
   margin: 0;
   list-style: none;
 }
+
+.main-footer .container {
+  display: flex;
+}
+
+.footer-social {
+  width: 260px;
+}
+
+.discount-social {
+  width: 660px;
+  margin-left: 140px;
+  margin-right: auto;
+}
