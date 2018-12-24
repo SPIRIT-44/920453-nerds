@@ -530,17 +530,13 @@ a {
   margin-right: auto;
 }
 
-/*.wrapper {
+.wrapper {
   display: flex;
   justify-content: space-between;
-}*/
+}
 
 .filter {
   width: 260px;
-}
-
-.catalog {
-  width: 760px;
 }
 
 .main-footer-catalog {
