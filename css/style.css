@@ -429,6 +429,11 @@ a {
   margin-bottom: 80px;
 }
 
+.main-header-catalog {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
 .main-header-logo {
   width: 160px;
   height: 65px;
@@ -525,15 +530,10 @@ a {
   margin-right: auto;
 }
 
-.main-header-catalog {
-  width: 100%;
-  margin-bottom: 60px;
-}
-
-.wrapper {
+/*.wrapper {
   display: flex;
   justify-content: space-between;
-}
+}*/
 
 .filter {
   width: 260px;
