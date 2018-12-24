@@ -433,8 +433,8 @@ a {
 .site-navigation {
   width: 600px;
   padding: 0;
-  padding-left: 200px;
-  padding-right: auto;
+  margin-left: 200px;
+  margin-right: auto;
   margin: 0;
   list-style: none;
 }
