@@ -433,6 +433,7 @@ a {
 .site-navigation {
   width: 600px;
   padding: 0;
+  margin: 0;
   margin-left: 200px;
   margin-right: auto;
   list-style: none;
@@ -470,10 +471,6 @@ a {
   height: 146px;
 }
 
-.websites p {
-  margin: 0;
-}
-
 .applications {
   width: 300px;
   margin: 0 auto;
@@ -484,10 +481,6 @@ a {
   height: 146px;
 }
 
-.applications p {
-  margin: 0;
-}
-
 .presentations {
   width: 300px;
   margin-right: 60px;
@@ -496,10 +489,6 @@ a {
 .presentations img {
   width: 300px;
   height: 146px;
-}
-
-.presentations p {
-  margin: 0;
 }
 
 .main-footer {
