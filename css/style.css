@@ -555,7 +555,7 @@ a {
   width: 760px;
 }
 
-.toggle-buttons {
+.toggle-buttons ul {
   padding: 0;
   margin: 0;
   list-style: none;
