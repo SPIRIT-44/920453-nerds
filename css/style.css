@@ -468,20 +468,20 @@ a {
 
 .applications {
   width: 300px;
+  margin: 0 auto;
 }
 
 .applications img {
   width: 300px;
   height: 146px;
-  margin: 0 auto;
 }
 
 .presentations {
   width: 300px;
+  margin-right: 60px;
 }
 
 .presentations img {
   width: 300px;
   height: 146px;
-  margin-right: 60px;
 }
