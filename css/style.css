@@ -412,3 +412,42 @@ a {
   text-transform: uppercase;
   color: #000000;
 }
+
+/* Сетка */
+
+.main-header {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.main-navigation {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.main-header-logo {
+  width: 160px;
+  height: 65px;
+}
+
+.site-navigation {
+  width: 600px;
+  padding: 0;
+  padding-left: 200px;
+  padding-left: auto;
+  margin: 0;
+  list-style: none;
+}
+
+.user-navigation {
+  width: 180px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1160px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
