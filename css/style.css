@@ -434,7 +434,7 @@ a {
   width: 600px;
   padding: 0;
   padding-left: 200px;
-  padding-left: auto;
+  padding-right: auto;
   margin: 0;
   list-style: none;
 }
@@ -484,4 +484,14 @@ a {
 .presentations img {
   width: 300px;
   height: 146px;
+}
+
+.main-footer {
+  margin-top: 80px;
+}
+
+.logo-social {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
